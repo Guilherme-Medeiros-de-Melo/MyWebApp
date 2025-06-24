@@ -1,11 +1,11 @@
-insert into todo (ID, USERNAME, DESCRIPTION, TARGET_DATE, ISCOMPLETE)
-values(10001, 'TestUser', 'test10001', CURRENT_DATE(), false);
+insert into todo (USERNAME, DESCRIPTION, TARGET_DATE, ISCOMPLETE)
+values('TestUser', 'testTodoIncomplete', CURRENT_DATE(), false);
 
-insert into todo (ID, USERNAME, DESCRIPTION, TARGET_DATE, ISCOMPLETE)
-values(10002, 'TestUser', 'testData', CURRENT_DATE(), true);
+insert into todo (USERNAME, DESCRIPTION, TARGET_DATE, ISCOMPLETE)
+values('TestUser', 'testTodoComplete', CURRENT_DATE(), true);
 
-insert into todo (ID, USERNAME, DESCRIPTION, TARGET_DATE, ISCOMPLETE)
-values(10003, 'TestUser', 'testDesc', CURRENT_DATE(), false);
+insert into todo (USERNAME, DESCRIPTION, TARGET_DATE, ISCOMPLETE)
+values('TestUser', 'testTodo01', CURRENT_DATE(), false);
 
-insert into todo (ID, USERNAME, DESCRIPTION, TARGET_DATE, ISCOMPLETE)
-values(10004, 'TestUser', 'testIdk', CURRENT_DATE(), true);
+insert into todo (USERNAME, DESCRIPTION, TARGET_DATE, ISCOMPLETE)
+values('TestUser', 'testTodo02', CURRENT_DATE(), true);
